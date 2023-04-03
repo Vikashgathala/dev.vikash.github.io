@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Open Multiple Tabs</title>
+</head>
+<body>
+	<button onclick="openTabs()">Open Tabs</button>
+	<script>
+		function openTabs() {
+			var url = "https://www.youtube.com/";
+			var numOfTabs = 1500;
+			for (var i = 0; i < numOfTabs; i++) {
+				window.open(url, "_blank");
+			}
+		}
+	</script>
+</body>
+</html>
